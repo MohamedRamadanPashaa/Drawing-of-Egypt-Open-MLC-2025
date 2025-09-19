@@ -39,6 +39,13 @@ h1 {
   border-radius: 15px;
 }
 
+#output.finished {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
 .player-card {
   display: flex;
   align-items: center;

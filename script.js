@@ -91,6 +91,7 @@ function assignPlayer(player, i, lastIndex) {
       setTimeout(() => {
         if (i === lastIndex) {
           outputDiv.innerHTML = "Drawing finished";
+          outputDiv.classList.add("finished");
         } else {
           outputDiv.innerHTML = "⬇️ Drawing in progress...";
         }
@@ -110,6 +111,7 @@ function assignPlayer(player, i, lastIndex) {
       setTimeout(() => {
         if (i === lastIndex) {
           outputDiv.innerHTML = "Drawing finished";
+          outputDiv.classList.add("finished");
         } else {
           outputDiv.innerHTML = "⬇️ Drawing in progress...";
         }
