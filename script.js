@@ -39,8 +39,8 @@ const groupBDiv = document.getElementById("groupB");
 const outputDiv = document.getElementById("output");
 let groupA = [];
 let groupB = [];
-let interval = 4000;
-let delay = 1000;
+let interval = 40000;
+let delay = 10000;
 
 const shuffleArray = (arr) => arr.sort(() => Math.random() - 0.5);
 
